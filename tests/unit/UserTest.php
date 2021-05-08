@@ -7,7 +7,7 @@ class UserTest extends \PHPUnit\Framework\TestCase
     
     public function setUp():void
     {
-       $this->user =  new App\models\User;
+       $this->user =  new App\Models\User;
     }
     
     public function testThatWeCanGetTheFirstName()
