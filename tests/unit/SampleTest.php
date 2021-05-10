@@ -2,7 +2,8 @@
 
 class SampleTest extends \PHPUnit\Framework\TestCase {
 
-    public function testTrueAssertsToTrue(){
+    public function testTrueAssertsToTrue()
+    {
        $this->assertFalse(false); 
     }
 }
